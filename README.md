@@ -271,6 +271,46 @@ Enter your choice:
 ```
 
 ---
+## 📋 Input and Output
+
+### 🎧 Input Audio Files
+
+The program works with `.wav` audio files.
+
+A sample `.wav` file is included in the repository for testing purposes. **You can also add your own `.wav` files** to the project directory and provide their filename/path when prompted by the program.
+
+For example:
+
+```text
+music-manipulation/
+│
+├── main.cpp
+├── sound.cpp
+├── sound.h
+├── wavfile.cpp
+├── wavfile.h
+│
+├── test.wav          ← Included sample file
+├── dhani.wav         ← Your own WAV file or any extra WAV file
+│
+└── README.md
+```
+
+> **Note:** Only WAV files are supported by the current implementation. Make sure your audio file is in `.wav` format before using it with the program.
+
+### 📤 Output Audio Files
+
+Depending on the selected operation, the program can generate a processed WAV file such as:
+
+```text
+upsampled.wav
+downsampled.wav
+filtered.wav
+mixed.wav
+```
+
+You can also use these generated files as input for further audio manipulation operations.
+
 
 ## 🎯 Learning Objectives
 
